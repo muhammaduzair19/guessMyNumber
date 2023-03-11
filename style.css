@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+.mainpage{
+    width: 90%;
+    height: 100vh;
+    background-image: url(./3540662.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(227, 227, 227); */
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.head{
+    width: 80%;
+    /* background-color: blue; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.again, .range{
+    border: 2px solid red;
+    border-radius: 10px;
+    font-size: xx-large;
+    text-align: center;
+    width: 20%;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 1px 25px 8px gray inset;
+}
+.numberBox, .tagLine {
+    margin: 10px 0;
+    text-align: center;
+}
+.tagLine{
+    color: red;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.numberBox{
+    color: black;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 90px;
+    border: 1px solid black;
+    background-color: rgb(222, 212, 212);
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.middle{
+    /* background-color: blue; */
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.process{
+    width: 50%;
+    /* background-color: red; */
+    padding-left: 30px;
+}
+.process input{
+    display: block;
+    width: 40%;
+    height: 30%;
+    color: black;
+    font-size: large;
+    border-radius: 10px;
+
+}
+.process button{
+    display: block;
+    width: 15%;
+    margin: 10px 70px;
+    height: 30%;
+    font-size: large;
+    border-radius: 10px;
+
+}
+.scoreCard{
+    color: rgb(255, 255, 255);
+    padding-right: 30px;
+    width: 50%;
+    /* background-color: green; */
+    text-align: end;
+    font-size: xx-large;
+}
+
